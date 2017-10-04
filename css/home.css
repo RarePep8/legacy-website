@@ -1,7 +1,12 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
 body, h1, h2, h3, h4, h5, h6 {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
 }
+
 a, a:link, a:visited {
   color:#000000;
 }
@@ -9,7 +14,7 @@ a, a:link, a:visited {
 
 }
 .container {
-        margin-top: 10%;
+        padding-top: 10%;
         text-align: center;
 }
 .network-name {
