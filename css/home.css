@@ -1,11 +1,40 @@
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+a {
+  color:#000000;
+}
+.intro-header {
+
+}
+.container {
+        margin-top: 10%;
+        text-align: center;
+}
+.network-name {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
 
 @media all and (min-width: 600px) {
-    body{
-        background-image:url('../images/bg4.jpeg');
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-attachment: fixed;
+    body {
+    background-image:url('../images/bg.jpeg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
     }
 }
 
+@media all and (max-width: 599px) {
+    body {
+    background-image:url('../images/bg-mobile.jpeg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    }
+}
