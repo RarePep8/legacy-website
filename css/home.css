@@ -24,6 +24,14 @@ a, a:link, a:visited {
   letter-spacing: 2px;
 }
 
+body {
+    background-image:url('../images/bg-min.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+	background-attachment: fixed;
+}
+/*
 @media all and (min-width: 600px) {
     body {
     background-image:url('../images/bg.jpeg');
@@ -43,3 +51,4 @@ a, a:link, a:visited {
     background-attachment: fixed;
     }
 }
+*/
