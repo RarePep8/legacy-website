@@ -1,6 +1,7 @@
 html, body {
   height: 100%;
   width: 100%;
+  color: black;
 }
 body, h1, h2, h3, h4, h5, h6 {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -11,21 +12,27 @@ a, a:link, a:visited {
   color:#000000;
 }
 .intro-header {
-
+	float: left;
+	padding-top: 10%;
+	padding-left: 10%;
 }
 
-.container {
-        padding-top: 10%;
-        text-align: center;
+.container{
+  background-color: white;
+  padding-bottom: 20px;
+  width: 350px;
+  border-radius: 10px;
 }
+
 .network-name {
+  text-align: center;
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 2px;
 }
 
 body {
-    background-image:url('../images/bg-min.jpeg');
+    background-image:url('../images/toronto-bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
