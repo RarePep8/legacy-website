@@ -2,7 +2,7 @@ html, body {
   overflow: hidden;height:100%;
 
   width: 100%;
-  color: black;
+  color: white;
 
 }
 body, h1, h2, h3, h4, h5, h6 {
@@ -10,11 +10,19 @@ body, h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
+h1 {
+  font-size: 3vw;
+}
+
+p {
+  font-size: 1.5vw;
+}
+
 a, a:link, a:visited {
   color:#000000;
 }
 .navbar-default{
-  background: rgba(207,201,207,1);
+  background: rgba(0,0,0,1);
   border-style: none;
 }
 .intro{
@@ -25,10 +33,10 @@ a, a:link, a:visited {
 .intro-header {
 
 	background: grey;
-	background: linear-gradient(to right, rgba(207,201,207,1), rgba(207,201,207,0.8),rgba(207,201,207,0));
-	padding: 5px 10px 10px 10px;
+	background: linear-gradient(to right, rgba(35,35,35,1), rgba(35,35,35,0.8),rgba(207,201,207,0),rgba(207,201,207,0));
+	padding: 1vw 2vw 2vw 2vw;
 	border-radius: 10px;
-	width: 40%;
+	width: 45vw;
 }
 /*
 .container{
