@@ -21,8 +21,14 @@ p {
 a, a:link, a:visited {
   color:#000000;
 }
+
+#headerPepe{
+  height: 100%;
+  width: auto;
+}
+
 .navbar-default{
-  background: rgba(0,0,0,1);
+  background: rgba(35,35,35,1);
   border-style: none;
 }
 .intro{
