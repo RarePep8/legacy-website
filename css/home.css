@@ -27,6 +27,12 @@ a, a:link, a:visited {
   width: auto;
 }
 
+#networkBody{
+  margin: 0 auto;
+  width: 100%;
+}
+
+
 .navbar-default{
   background: rgba(35,35,35,1);
   border-style: none;
@@ -44,6 +50,15 @@ a, a:link, a:visited {
 	border-radius: 10px;
 	width: 45vw;
 }
+
+
+.network-label{
+  display: block;
+}
+
+
+
+
 /*
 .container{
   background-color: white;
