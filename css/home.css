@@ -110,6 +110,6 @@ body {
 
 #date-text, #time-text {
   text-align: center;
-  font-size: 100px;
+  font-size: 10vw;
   font-family: monospace;
 }
