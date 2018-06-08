@@ -1,3 +1,6 @@
+html {
+  height: 100%;
+}
 body {
   overflow-y: scroll;
   overflow-x: hidden;
@@ -111,5 +114,5 @@ body {
 #date-text, #time-text {
   text-align: center;
   font-size: 10vw;
-  font-family: monospace;
+  font-family: consolas, monospace;
 }

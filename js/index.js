@@ -1,8 +1,9 @@
+var weekdayArray = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
 var dateObject = new Date();
 if(dateObject.getDay() == 3){
   document.getElementById('date-text').innerHTML = "It's wednesday my dudes";
 } else {
-  document.getElementById('date-text').innerHTML = "Ies";
+  document.getElementById('date-text').innerHTML = weekdayArray[dateObject.getDay()];
 }
 
 function clock(){
