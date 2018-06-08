@@ -1,10 +1,11 @@
-html, body {
-  overflow: hidden;height:100%;
-
+body {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height:100%;
   width: 100%;
   color: white;
-
 }
+
 body, h1, h2, h3, h4, h5, h6 {
   font-family: "Segoe UI",Arial,sans-serif;
   font-weight: 700;
@@ -37,25 +38,29 @@ a, a:link, a:visited {
   background: rgba(35,35,35,1);
   border-style: none;
 }
-.intro{
-  float: left;
-  padding-top: 5%;
-  padding-left: 10%;
-}
+
 .intro-header {
-
-	background: grey;
-	background: linear-gradient(to right, rgba(35,35,35,1), rgba(35,35,35,0.8),rgba(207,201,207,0),rgba(207,201,207,0));
-	padding: 1vw 2vw 2vw 2vw;
-	border-radius: 10px;
-	width: 45vw;
+  display: block;
+  	background: linear-gradient(to right, rgba(35,35,35,0),rgba(35,35,35,1),rgba(35,35,35,1),rgba(35,35,35,0));
+  width: 100%;
 }
 
-
+.intro-paragraph {
+  margin-top: 5%;
+  border-radius: 0.5vw;
+  border-color: white;
+  background-color: rgba(35,35,35,1);
+  padding: 1vw;
+}
 .network-label{
   display: block;
 }
-
+/*
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+*/
 
 
 
@@ -79,7 +84,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-	background-attachment: fixed;
+	  background-attachment: fixed;
 }
 /*
 @media all and (min-width: 600px) {
@@ -102,3 +107,9 @@ body {
     }
 }
 */
+
+#date-text, #time-text {
+  text-align: center;
+  font-size: 10vw;
+  font-family: monospace;
+}
