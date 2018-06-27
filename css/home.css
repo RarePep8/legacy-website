@@ -112,7 +112,13 @@ body {
 */
 
 #date-text, #time-text {
-  text-align: center;
   font-size: 10vw;
   font-family: consolas, monospace;
+}
+.date-section {
+    text-align: center;
+}
+#date-image {
+    height: 8vw;
+    width: 8vw;
 }
