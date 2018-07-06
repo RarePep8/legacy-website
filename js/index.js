@@ -1,8 +1,8 @@
 var weekdayArray = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
 var dateObject = new Date();
 document.getElementById('date-text').innerHTML = weekdayArray[dateObject.getDay()];
-if(dateObject.getDay() == 3){
-  document.getElementById('date-image').src = "images/wednesday.jpg";
+if(dateObject.getDay() != 3){
+  document.getElementById("date-image").style.display='none';
 }
 function clock(){
   var dynamicDateObject = new Date();
