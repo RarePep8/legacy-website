@@ -6,7 +6,7 @@ body {
   overflow-x: hidden;
   height:100%;
   width: 100%;
-  color: white;
+  color: black;
 }
 
 body, h1, h2, h3, h4, h5, h6 {
@@ -40,11 +40,12 @@ a, a:link, a:visited {
 .navbar-default{
   background: rgba(35,35,35,1);
   border-style: none;
+  border-radius: 0;
 }
 
 .intro-header {
   display: block;
-  	background: linear-gradient(to right, rgba(35,35,35,0),rgba(35,35,35,1),rgba(35,35,35,1),rgba(35,35,35,0));
+  /* background: linear-gradient(to right, rgba(102,153,153,0),rgba(230,230,230,1),rgba(230,230,230,1),rgba(102,153,153,0)); */
   width: 100%;
 }
 
@@ -52,7 +53,6 @@ a, a:link, a:visited {
   margin-top: 5%;
   border-radius: 0.5vw;
   border-color: white;
-  background-color: rgba(35,35,35,1);
   padding: 1vw;
 }
 .network-label{
@@ -113,10 +113,22 @@ body {
 
 #date-text, #time-text {
   font-size: 10vw;
-  font-family: consolas, monospace;
+  font-family: Orbitron, consolas, monospace;
+}
+#date-text{
+  padding-top: 5vw;
+}
+#time-text {
+  border-style: dotted;
+  display: inline-block;
 }
 .date-section {
     text-align: center;
+
+}
+.background{
+  height: 100%;
+  background-color: rgba(166,166,166,0.6);
 }
 #date-image {
     height: 8vw;
