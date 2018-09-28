@@ -2,7 +2,7 @@ var weekdayArray = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Fri
 var dateObject = new Date();
 document.getElementById('date-text').innerHTML = weekdayArray[dateObject.getDay()];
 //if(dateObject.getDay() != 3){
-  document.getElementById("date-image").style.display='none';
+ // document.getElementById("date-image").style.display='none';
 //}
 var showBorder = false;
 function clock(){
