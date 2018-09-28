@@ -77,9 +77,9 @@ a, a:link, a:visited {
 */
 .network-name {
   text-align: center;
-  font-size: 14px;
-  font-weight: 400;
-  letter-spacing: 2px;
+  font-size: 16px;
+  font-weight: 600;
+
 }
 
 body {
@@ -133,4 +133,17 @@ body {
 #date-image {
     height: 8vw;
     width: 8vw;
+}
+.btn-primary{
+  color: black;
+  background-color: white !important;
+  border: 0;
+}
+.btn-primary:hover{
+  color: black;
+  background-color: grey !important;
+  border: 0;
+}
+.btn-primary:visited, .btn-primary:active{
+  color: black !important;
 }
