@@ -1,6 +1,12 @@
 var weekdayArray = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
 var dateObject = new Date();
 document.getElementById('date-text').innerHTML = weekdayArray[dateObject.getDay()];
+<<<<<<< HEAD
+=======
+//if(dateObject.getDay() != 3){
+ // document.getElementById("date-image").style.display='none';
+//}
+>>>>>>> 5fe4370e3f1361882d576fe39b6acaac804a181f
 var showBorder = false;
 function clock(){
   var dynamicDateObject = new Date();
