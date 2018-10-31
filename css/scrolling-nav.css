@@ -1,0 +1,64 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+html{
+  width: 100%;
+}
+h1{
+  font-size: 8rem !important;
+  font-family: Roboto
+
+}
+section {
+  padding: 150px 0;
+  height: 100vh;
+}
+
+
+.test-social{
+  border-radius: 100%;
+
+  color: white;
+  height: 3.5rem;
+  width: 3.5rem;
+  line-height: 3.5rem;
+  text-align: center;
+  display: inline-block;
+  font-size: 1.5rem;
+}
+#github:hover{
+	color: black;
+	background-color: white;
+}
+#linkedin:hover{
+	color: #0077B5;
+	background-color: white;
+}
+#hackerrank:hover{
+	color: #8BE59A;
+	background-color: white;
+}
+#home{
+	background: url("../images/toronto-bg.jpg");
+	background-size: cover;
+}
+
+#home-canvas{
+	background-color:rgba(35,35,35,0.5);
+}
+
+.nav-item{
+    color:red !important;
+}
+.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+	padding: 0.5rem;
+}
+.caption {
+    display: block;
+}
