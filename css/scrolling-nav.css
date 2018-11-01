@@ -27,18 +27,20 @@ section {
   text-align: center;
   display: inline-block;
   font-size: 2rem;
+  transition: all 0.25s ease-out;
+}
+.test-social:hover{
+	transform: scale(1.1);
+	background-color: white;
 }
 #github:hover{
 	color: black;
-	background-color: white;
 }
 #linkedin:hover{
 	color: #0077B5;
-	background-color: white;
 }
 #hackerrank:hover{
 	color: #8BE59A;
-	background-color: white;
 }
 #home{
 	background: url("../images/toronto-bg.jpg");
