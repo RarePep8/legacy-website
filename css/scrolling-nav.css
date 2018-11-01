@@ -4,12 +4,12 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
 
-html{
-  width: 100%;
-}
+
 h1{
-  font-size: 8rem !important;
-  font-family: Roboto
+  font-size: 5vw !important;
+  font-family: "Roboto";
+
+  font-weight: bold;
 
 }
 section {
@@ -20,14 +20,13 @@ section {
 
 .test-social{
   border-radius: 100%;
-
   color: white;
-  height: 3.5rem;
-  width: 3.5rem;
-  line-height: 3.5rem;
+  height: 4rem;
+  width: 4rem;
+  line-height: 4rem;
   text-align: center;
   display: inline-block;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 #github:hover{
 	color: black;
@@ -47,17 +46,17 @@ section {
 }
 
 #home-canvas{
-	background-color:rgba(35,35,35,0.5);
+  padding-top: 30vh;
+	background-color:rgba(35,35,35,0.6);
 }
 
-.nav-item{
-    color:red !important;
-}
 .item {
     vertical-align: top;
     display: inline-block;
     text-align: center;
-	padding: 0.5rem;
+	  padding: 0.5rem;
+    width: 6rem;
+    height: 6rem;
 }
 .caption {
     display: block;
