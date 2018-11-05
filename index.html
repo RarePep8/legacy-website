@@ -17,7 +17,15 @@
     <link href="css/scrolling-nav.css" rel="stylesheet">
     <!-- Custom fonts from google-->
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128599725-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
 
+		gtag('config', 'UA-128599725-1');
+	</script>
   </head>
 
   <body id="page-top">
@@ -69,39 +77,61 @@
       <div class="container">
 
             <h2>Skills</h2>
-			    <span class="item">
-					<i class="fab fa-java fa-5x"></i>
+				<span class="item">
+					<img src="vendor/java.svg" style="height:5rem;width:5rem;padding:0.35rem"></img>
 					<span class="caption">Java</span>
 				</span>
 				<span class="item">
-					<i class="fab fa-python fa-5x"></i>
+					<img src="vendor/icons8-python.svg" style="height:5rem;width:5rem;padding:0.35rem"></img>
 					<span class="caption">Python</span>
 				</span>
 				<span class="item">
-					<i class="fab fa-html5 fa-5x"></i>
+					<img src="vendor/csharp.png" style="height:5rem;width:5rem;padding:0.35rem"></img>
+				<span class="caption">C#</span>
+				</span>
+				<span class="item">
+					<i class="fab fa-html5 fa-5x" style="color:#FF4500;"></i>
 					<span class="caption">HTML</span>
 				</span>
 			    <span class="item">
-					<i class="fab fa-css3 fa-5x"></i>
+					<i class="fab fa-css3-alt fa-5x" style="color:#1E90FF;"></i>
 					<span class="caption">CSS</span>
 				</span>
 				<span class="item">
-					<i class="fab fa-js-square fa-5x"></i>
+					<span class="fa-stack fa-js-size">
+						<i class="fas fa-square fa-stack-2x backdrop"></i>
+						<i class="fab fa-js-square fa-stack-2x" style="color:#FFC300"></i>
+					</span>
 					<span class="caption">JavaScript</span>
 				</span>
 				<span class="item">
 					<img src="vendor/bootstrap.svg" style="height:5rem;width:5rem;padding:0.35rem"></img>
 					<span class="caption">Bootstrap</span>
 				</span>
-        <span class="item">
-          <i class="fas fa-database fa-5x"></i>
-          <span class="caption">RDBMS</span>
-        </span>
-        <span class="item">
-          <i class="fab fa-node-js fa-5x"></i>
-          <span class="caption">Node.js</span>
-        </span>
-
+				<span class="item">
+					<img src="vendor/express.png" style="height:5rem;width:5rem;padding:0.35rem"></img>
+					<span class="caption">Express</span>
+				</span>
+				<span class="item">
+					<i class="fas fa-database fa-5x"></i>
+					<span class="caption">RDBMS</span>
+				</span>
+				<span class="item">
+					<i class="fab fa-node-js fa-5x" style="color:#28BF48;"></i>
+					<span class="caption">Node.js</span>
+				</span>
+				<span class="item">
+					<img src="vendor/git.png" style="height:5rem;width:5rem;padding:0.35rem"></img>
+					<span class="caption">Git</span>
+				</span>
+				<span class="item">
+					<img src="vendor/greenfoot.png" style="height:5rem;width:5rem;padding:0.35rem"></img>
+					<span class="caption">Greenfoot</span>
+				</span>
+				<span class="item">
+					<img src="vendor/godot.svg" style="height:5rem;width:5rem;padding:0.35rem"></img>
+					<span class="caption">Godot</span>
+				</span>
       </div>
     </section>
 
@@ -113,11 +143,25 @@
 
     <section id="experiences">
       <div class="container">
-        YEET
+		<div class="experiences-item d-flex">
+		<div class="experiences-content mr-auto">
+        <h3>TD Bank Group</h3>
+		<p>Completed a 4-month work term as a QA/Test Analyst within TD’s Easy Apply channel</p>
+		<ul>
+			<li>Tested and retested for hundreds of accessibility, UI, and functional defects</li>
+			<li>Cooperated with two teams to ensure both projects (ULOAN application & Credit Card RADAR offers) were defect free before exiting the System Integration Testing phase</li>
+			<li>Planned and tested for implementation of new features during the development phase for the Credit Card BAU application to ensure smooth transition into SIT phase</li>
+		</ul>
+		</div>
+		<div class="experiences-date text-md-right">
+		January 2018 - April 2018
+		</div>
+		</div>
+
       </div>
+	  
     </section>
-
-
+<div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -128,6 +172,7 @@
 
     <!-- Custom JavaScript for this theme -->
     <script src="js/scrolling-nav.js"></script>
+	
 
   </body>
 
