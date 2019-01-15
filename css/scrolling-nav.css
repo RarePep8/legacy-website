@@ -54,6 +54,9 @@ section {
   padding-top: 30vh;
 	background-color:rgba(35,35,35,0.6);
 }
+#experiences{
+  margin-bottom: 20vh;
+}
 
 .item {
     vertical-align: top;
@@ -76,8 +79,11 @@ section {
 	color:black;
 }
 .experiences-date{
-	min-width: 14rem;
+	min-width: 16rem;
 }
 .experience{
     padding-bottom: 10vh;
+}
+.experiences-item{
+  padding-bottom: 5vh;
 }
