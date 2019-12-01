@@ -56,14 +56,21 @@ section {
 }
 
 .item {
-    vertical-align: top;
-    display: inline-block;
-    text-align: center;
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
 	padding: 0.5rem;
-    width: 6rem;
-    height: 6rem;
+  width: 6rem;
+  height: 6rem;
 	margin-bottom: 1rem;
 }
+
+.skills-img {
+  height:5rem;
+  width:5rem;
+  padding:0.35rem
+}
+
 .caption {
     display: block;
 }
