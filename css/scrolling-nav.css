@@ -16,7 +16,7 @@ h1{
 
 }
 section {
-  height: 100vh;
+  min-height: 100%;
   padding: 15vh 0;
 }
 
